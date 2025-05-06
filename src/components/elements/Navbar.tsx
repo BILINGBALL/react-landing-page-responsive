@@ -1,5 +1,5 @@
 import {Container} from "../shared/Container.tsx";
-import logo from "../../assets/logo.svg"
+import logo from "/assets/logo.svg"
 import {NavItem} from "../shared/NavItem.tsx";
 import {BtnLink} from "../shared/BtnLink.tsx";
 import {useThemeStore} from "../../store/ThemeStore.ts";
