@@ -14,7 +14,7 @@ export const Navbar = () => {
     const {toggleTheme, theme} = useThemeStore();
 
     return (
-        <header className="absolute inset-x-0 top-0 z-50 py-6">
+        <header className="fixed inset-x-0 top-0 z-50 py-6">
             <Container>
                 <nav className="w-full flex justify-between gap-6 relative">
                     {/*Logo */}
