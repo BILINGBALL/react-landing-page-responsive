@@ -14,11 +14,11 @@ export const Navbar = () => {
     const {toggleTheme, theme} = useThemeStore();
 
     return (
-        <header className="fixed inset-x-0 top-0 z-50 py-6">
+        <header className="fixed inset-x-0 top-0 z-50 py-0">
             <Container>
-                <nav className="w-full flex justify-between gap-6 relative">
+                <nav className="w-full flex justify-between gap-6 relative bg-body mt-0">
                     {/*Logo */}
-                    <div className="min-w-max inline-flex relative">
+                    <div className="min-w-max inline-flex relative ">
                         <a href="/" className="relative flex items-center gap-3">
                             <img src={logo} alt="Lijie Logo" className="w-10 h-10"/>
                             <div className="inline-flex text-lg font-semibold text-heading-1">
